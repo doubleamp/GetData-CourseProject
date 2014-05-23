@@ -1,6 +1,6 @@
 Getting and Cleaning Data - Course Project
 ==========================================
-Prepared by Amperio; last version created Thu May 15 20:45:32 2014
+Prepared by Amperio; last version created Thu May 18 20:45:32 2014
 
 # Description of the working of the script
 
