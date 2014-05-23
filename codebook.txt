@@ -1,0 +1,31 @@
+Getting and Cleaning Data - Course Project (Codebook)
+=====================================================
+
+This document is the codebook for the 'UCI-HAR_Dataset_Means_of_Extracted_Data.csv' file obtained as the 'second tidy data set' as described in the project presentation. It presents the names of the variables and their explanation.
+
+Variable Name          Description
+------------------     -----------
+subject.id         ->  Number (from 1 to 30) identifying the subject from which the data comes
+activity.name      ->  Name of the activity being done when the data was recorded
+tbodyacc.mean.x    ->  Mean of the mean acceleration of the body readings (X-axis)
+tbodyacc.mean.y    ->  Mean of the mean acceleration of the body readings (Y-axis)
+tbodyacc.mean.z    ->  Mean of the mean acceleration of the body readings (Z-axis)
+tbodyacc.std.x     ->  Mean of the standard deviation of the acceleration of the body (X-axis)
+tbodyacc.std.y     ->  Mean of the standard deviation of the acceleration of the body (Y-axis)
+tbodyacc.std.z     ->  Mean of the standard deviation of the acceleration of the body (Z-axis)
+tgravityacc.mean.x ->  Mean of the mean gravity acceleration readings (X-axis)
+tgravityacc.mean.y ->  Mean of the mean gravity acceleration readings (Y-axis)
+tgravityacc.mean.z ->  Mean of the mean gravity acceleration readings (Z-axis)
+tgravityacc.std.x  ->  Mean of the standard deviation of the gravity acceleration (X-axis)
+tgravityacc.std.y  ->  Mean of the standard deviation of the gravity acceleration (Y-axis)
+tgravityacc.std.z  ->  Mean of the standard deviation of the gravity acceleration (Z-axis)
+tbodygyro.mean.x   ->  Mean of the mean gyroscope readings (X-axis)
+tbodygyro.mean.y   ->  Mean of the mean gyroscope readings (Y-axis)
+tbodygyro.mean.z   ->  Mean of the mean gyroscope readings (Z-axis)
+tbodygyro.std.x    ->  Mean of the standard deviation of the gyroscope readings (X-axis)
+tbodygyro.std.y    ->  Mean of the standard deviation of the gyroscope readings (Y-axis)
+tbodygyro.std.z    ->  Mean of the standard deviation of the gyroscope readings (Z-axis)
+
+The file 'UCI-HAR-Dataset_Mean_and_Std_Data.csv' contains basically the same type of data, but with the original readings from the sensors (in terms of mean and standard deviations), without further processing (i.e., mean calculation).
+
+In all the cases, the presented data includes that coming from the train and test subsets.
